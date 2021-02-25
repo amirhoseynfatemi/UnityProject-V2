@@ -25,7 +25,7 @@ public class FirstPersonController : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		Enemys = GameObject.FindGameObjectsWithTag("Enemy");
-		speed = 5.0f;
+		speed = 10f;
 		jumpHeight = 3.0f;
 		rbody = GetComponent<Rigidbody>();
 		audio = GetComponent<AudioSource>();
